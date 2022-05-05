@@ -1,0 +1,14 @@
+Modem //responsável por converter dados em um formato de transmissão de um computador para outro.
+
+Roteador //distribui internet para um ou mais dispositivos em uma rede.
+
+Switch //distribui internet para um ou mais dispositivos em uma rede. 
+
+De acordo com o site: https://www.fourserv.com.br/blog/hub-switch-roteador-e-modem-saiba-a-diferenca-entre-os-principais-dispositivos-de-uma-rede-de-computadores/#:~:text=A%20maior%20diferen%C3%A7a%20entre%20eles,da%20rede%20e%20seu%20uso. A maior diferença entre eles é que o primeiro apenas conecta dispositivos e transmite dados dentro de uma rede, já o segundo, tem a mesma função do primeiro com o adicional de possuir ferramentas de administração remota e ter relatórios sobre determinados aspectos da rede e seu uso. 
+
+Exercicios Final
+Identificar as portas:
+SMPT Gmail: 465
+POP3 Gmail: 995
+MySQL: 3306
+Apache: 443

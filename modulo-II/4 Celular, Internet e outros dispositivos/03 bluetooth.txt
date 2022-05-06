@@ -1,0 +1,12 @@
+Conexão ponto-a-ponto
+
+Versão	Taxa de transmissão
+1.2		1 Mbps
+2.0+EDR	3 Mbps
+3.0		24 Mbps
+4.0		25 Mbps
+5.0 		50 Mbps
+
+
+Exercício final
+Nos últimos anos houveram grandes mudanças na forma de acesso a internet, por um lado tem-se a fibra optica que nos permite velocidades de down acima de 200Mbps, uma internet estável e confiável

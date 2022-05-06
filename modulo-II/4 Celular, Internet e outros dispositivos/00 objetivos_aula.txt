@@ -1,0 +1,10 @@
+1. Dados móveis
+
+2. wi-fi
+
+3. Bluetooth
+
+Requisitos básicos
+. redes
+. internet
+. TCP/IP

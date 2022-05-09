@@ -1,0 +1,15 @@
+Web-server = servidor de dados
+
+2 tipos: estático (servidor físico, geralmente alocados em locais apropriados)/ dinâmico (softwares no servidor físico, são do tipo: file server, application server, database...)
+
+Difícil disponibilizar apenas um tipo de servidor. 
+
+Um Site/aplicativo, dados ou banco de dados precisam necessariamente estar hospedado em um servidor para ser acessado.
+
+Exemplo de um Web-service
+Um iterface para fazer requisições e consulta em bancos de dados inacessíveis
+Ex.: correios, 
+
+Exercícios final
+Localizar, na internet, como se dá´o acesso aos web-services dos Correios e do Governo para buscar os dados de um CEP e dados sobre estudantes brasileiros.
+

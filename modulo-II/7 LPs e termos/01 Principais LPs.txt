@@ -1,0 +1,12 @@
+Principais Linguagens:
+. HTML
+. CSS
+. JS (JQuery, AJAX, diversas Libs)
+. PHP
+. .NET
+. ASP
+. Java (antiga e pesada...)
+. Ruby (on Rails)
+. Python
+. Perl
+. C/C++ /C#

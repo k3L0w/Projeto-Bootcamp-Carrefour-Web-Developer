@@ -1,0 +1,20 @@
+site = página web
+Uma página web atende diversos propósitos, sejam eles para entretenimento, indexadoras (buscas) ou uso comercial, páginas web podem ser desenvolvidas em várias LPs.
+
+Aplicativos de celulares são na verdade uma espécie de browser.
+
+e = electronic
+Sites de compra e venda com sistema de pagamento.
+Pagamentos podem ser fora do site:
+. PicPay
+. Boleto
+. PagSeguro
+. PayPal
+. Mercado Pago
+
+Exercício final
+Boleto só existe no Brasil?
+
+Débito é uma invensão brasileira?
+
+

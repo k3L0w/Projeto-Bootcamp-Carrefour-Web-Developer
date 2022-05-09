@@ -1,0 +1,63 @@
+Stack Front-end
+
+. "parte da frente"
+. Ex.: sites, sw, app, web-services
+. Interface, UI (...'os 3 pontos...') UX (cores e disposições) 
+. Lógica de Programação, HTML, CSS, JQuery (LP)/JS(LP)/Ajax, PHP , BootStrap/Outros Frames
+
+Stack Back-end
+. "parte de trás"
+. Servidores, Banco de dados
+. "meio-de-campo, entre interface e bancos de dados, regras de negócios, validações
+. MySQL, Oracle, protocools, PHP, Java, node.js
+
+Fulll Stack
+. Profissional que sabe trabalhar em todas as camadas das tecnologias de desenvolvimento/execução de um App/Sw.
+
+
+Exemplo
+. Frontend: JQuery
+
+. Backend: Oracle, MySQL, Voldemort, Espresso, Node.js, Backbone.js, GRails - Jva Rails, Haddop
+
+. Meta (validações, segurança): Java, Scala, JRuby, JavaScript
+
+Outro exemplo em: https://tech.foodora.com/tech
+
+. Client - Web (Bootstrap, Backbone.js, jquery, webpack, TypeScript, Jest, Sass, React, {Track:js} Redux
+
+. Mobile (Objetive-C, Reactive-X, Swift, Kotlin, Firebase, Java)
+
+. Backend (php, Java, kibana, golang, node, jenkins, Travis CI Status Cake, New Relic, blackfire, Symfony)
+
+. Data (MySQL, redis, elasticsearch, Monyog)
+
+. Infra (Nginx, kubernetes, docker, cloudflare, AWS...)
+
+. Service (Jira, Github, wp engine, webtranslateit, LaunchDarkly, productboard, zeplin, invision, braze, StatusPage.io
+
+The most popular Frameworks for Front-end development
+
+HTML & CSS
+. bootstrap
+. bulma
+. JS Foundation
+. UIKIT
+. Susy
+. Materialize
+. Purecss
+. {less}
+
+JAVA SCRIPT
+. Angular
+. Vue.js
+. React
+. Ember
+. Next
+
+Exercícios final
+Stacks de grandes empresas:
+. Google:
+. Facebook
+. IBM
+. Apple

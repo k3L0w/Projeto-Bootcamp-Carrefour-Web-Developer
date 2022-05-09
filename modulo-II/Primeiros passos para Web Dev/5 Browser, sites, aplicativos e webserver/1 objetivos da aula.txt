@@ -1,0 +1,15 @@
+Browsers, sites, aplicativos e Webserver
+
+Objetivo:
+
+1. O que é um browser e como ele interpreta a internet
+
+2. O que é um site, aplicativo e e-commerce
+
+3. O que é um web-server, função e onde se encontra
+
+Requisitos básicos:
+- Familiaridade com computadores
+- Familiaridade com internet
+- Familiaridade com smartphone
+

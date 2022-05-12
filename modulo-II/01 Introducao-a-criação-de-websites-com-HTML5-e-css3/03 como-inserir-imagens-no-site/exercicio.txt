@@ -1,0 +1,4 @@
+Exercicio
+
+Adicionar uma imagem ao cabeçalho da página e uma imagem a postagem.
+

@@ -1,0 +1,8 @@
+Textos e links
+
+<h1>Título pagina</h1>
+<h2>Título seção</h2>
+<h3>Título artigo</h3>
+<p>Conteúdo artigo</p> //textos maiores e mais densos. Como parágrafos, imagens, código, vídeos e vários tipos de conteúdo.
+
+

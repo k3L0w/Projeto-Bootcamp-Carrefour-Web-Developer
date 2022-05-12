@@ -1,0 +1,50 @@
+Objtivos
+1. o que sao seletores
+
+2. conceitos básicos
+
+3. principais seletores CSS
+
+Requisitos
+. Um editor textual
+. Um browser
+. HTML5
+
+Introdução CSS3
+. 1996
+. Linguagem de Estilo
+. regra de estilo
+
+Regra CSS
+a, p, h1, h3 {	 //seletores
+	color: blue;	//declaração (propriedade / valor)
+	font-size: 14px; 	//declaração (propriedade / valor)
+}
+
+ID x Classe
+.header {		//classe
+	padding: 10px;
+}
+
+#header {	//id, pode ser usado só 1 vez na página.
+	padding: 15px;
+}
+
+Exercício
+Adicionar algumas classes no site e alterar alguns elementos.
+
+. criar arquivo CSS
+
+#title, .subtitle, .post_title {
+	color: blue;
+}
+
+.post_title {
+	font-size: 16px;
+	font-style: italic;
+}
+
+
+
+
+

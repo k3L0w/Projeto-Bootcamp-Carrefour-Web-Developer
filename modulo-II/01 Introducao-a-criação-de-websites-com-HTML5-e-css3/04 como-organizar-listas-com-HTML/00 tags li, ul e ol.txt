@@ -1,0 +1,16 @@
+Listas //servem para agrupar coleção de itens.
+Item 1
+Item 2
+
+Ex.: lista de ingredientes, contatos..
+
+<ul> //a ordem não é importante
+1. Item 1
+2. Item 3
+
+<ol> //ondem dos itens é importette. Representado por número, letras ou algarismo romano.
+
+<li> //item da lista.
+
+Exercícios
+Adicionar uma lista de contatos ao rodapé do site.

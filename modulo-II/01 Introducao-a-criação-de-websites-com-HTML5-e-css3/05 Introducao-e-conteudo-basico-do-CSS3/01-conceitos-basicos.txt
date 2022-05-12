@@ -1,0 +1,14 @@
+Em layout de sites, as caixas retagulares são elementos HTML, o nome para essas caixa é BOX MODEL.
+
+O CSS permite alterar a aparência dessa caixa.
+Box model, possue 5 áreas, são elas:
+margin //espaçamento entre elementos
+border //circundam padding e o content
+padding //espaçamento entre border e content
+content //texto, imagem ou video... é o que o bloco representa.
+
+É possível alterar largura e cores do padding e content. 
+
+Exercicio
+Adicionar cores e bordas a alguns elementos.
+

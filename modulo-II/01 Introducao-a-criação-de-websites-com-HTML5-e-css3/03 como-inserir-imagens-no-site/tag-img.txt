@@ -1,0 +1,5 @@
+<img>
+
+<img src="img/avatar.jpg"> //elemento principal
+
+<img alt="foto de avatar"> //acessibilidade, exibe o nome da foto qdo não é carregada.

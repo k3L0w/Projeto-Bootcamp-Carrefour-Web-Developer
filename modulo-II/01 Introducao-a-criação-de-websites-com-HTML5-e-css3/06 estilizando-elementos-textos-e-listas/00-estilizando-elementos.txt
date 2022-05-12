@@ -1,0 +1,103 @@
+Padding e Margin
+
+.post {
+	padding: 10px;
+}
+
+ou
+
+.post {
+	padding: 10px 5px; //superior, inferior, esquerdo, direito.
+}
+
+ou
+
+.post {
+ 	padding: 15px 10px 5px 0; //superior, direita, inferior e esquerda (valor 0, não é necessário usar unidade)
+}
+
+ou
+
+.post {
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-botton: 5px;
+	padding-left: 0;
+}
+
+ou
+
+.post {
+	background-color: green;
+	background-image: url("bg.png");
+	background-position: top;
+}
+
+ou
+
+post {
+	background-color: green; //nome da cor em inglês
+	background-color: #008800; //background em hexadecimal
+	background: #008000; //apenas background com o nome da cor ou o hexa.
+}
+
+
+Border
+Largura: pixels, centímetros, milímetros...
+Cor: blue, #0000ff...
+Estilo: sólida, pontilhada, tracejada
+
+Exemplo:
+.post {
+	border: 3px solid blue; //largura, estilo, cor
+	border-top: 2px dotted green; //largura, estilo, cor
+	border-right: 4px dashed pink; //largura, estilo, cor
+}
+
+ou
+
+.post {
+	border-top: 2px dotted green; //largura, estilo, cor
+	border-right: 4px dashed pink; //largura, estilo, cor
+	border-bottom: 1px solid purple; //largura, estilo, cor
+	border-left: 4px dotted cyan; //largura, estilo, cor
+}
+
+ou
+
+.post {
+	border: 3px solid #505050;
+}
+
+ou 
+
+Usar propriedades específicas
+.post {
+	border-width: 3px; //largura
+	border-color: #505050; //cor da borda
+	border-style: solid; //contorno da borda
+}
+
+ou mais específico ainda...
+
+.post {
+	border-top-width: 3px;
+	border-top-color: blue;
+	border-top-style: solid;
+}
+
+Outra, e última propriedade, arredondamento de cantos
+
+border-radius: 10px; //altera todos os cantos de um elemento
+border-radius: 50%; //altera todos os cantos de um elemento
+border-radius: 10% 20%; 
+border-radius: 10% 20% 15¨% 22%;
+
+
+Exercício
+Estilizar o site com as propriedades estudadas.
+
+
+
+
+

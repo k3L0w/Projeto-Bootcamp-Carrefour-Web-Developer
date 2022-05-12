@@ -1,0 +1,79 @@
+font-family  //altera fonte do texto
+#title {
+	font-family: Verdana;
+}
+
+.post_title {
+	font-family: verdana, Arial; 
+}
+
+
+font-size //altera o tamanho da fonte
+#title {
+	font-size: 30px;
+}
+
+.post_title {
+	font-size: 18px;
+}
+
+font-style //altera a aparência do nosso texto.
+#title {
+	font-style: normal;
+}
+
+.subtitle {
+	font-style: italic;
+}
+
+
+font-weight //altera o 'peso' do texto
+#title {
+	font-weight: normal;
+}
+
+.subtitle {
+	font-weight: bold;
+}
+
+text-transform //alterna o texto entre maiúscula e minúscula.
+
+#title {
+	text-transform: uppercase; //todo texto em caixa alta
+}
+
+.subtitle {
+	text-transform: lowercase; //todo stexto em caixa baixa
+}
+
+.post_title {
+	text-transform: capitalize; //toda letra de cada palavra em maiúscula.
+}
+
+text-decoration //dar destaque ao texto
+#title {
+	text-decoration: underline; //uma linha abaixo da palavra.
+}
+
+.subtitle {
+	text-decoration: overline; //uma linha acima.
+}
+
+.post_title {
+	text-decoration: line-through;
+}
+
+
+Exercício
+Efetuar alteração no texto (site)
+
+
+
+ 
+
+
+
+
+
+
+

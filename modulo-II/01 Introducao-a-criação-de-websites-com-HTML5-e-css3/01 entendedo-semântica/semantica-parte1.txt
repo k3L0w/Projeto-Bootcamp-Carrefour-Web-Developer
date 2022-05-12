@@ -1,0 +1,22 @@
+Semântica Parte 1
+
+<section> //representa uma seção genérica de conteúdo.
+
+
+<header> //cabeçalho de uma página, de uma section.
+
+<article> //um conteúdo relevante dentro uma página. 
+Ex. artigo de m blog.
+
+<aside> //representa um conteúdo relacionado ao conteúdo da página principal.
+Ex. bibliografia de um auto, links relacionados. Normalmente representados por uma barra lateral.
+
+<footer> //pode ser o rodapé da página, ou de parte da página ou rodapé de um article, ou section.
+
+<h1> . <h6>
+<h1> //título de uma página.
+<h2> //título de uma section.
+<h3> //título de um artigo.
+
+Obs.: só pode haver uma <h1> por página.
+

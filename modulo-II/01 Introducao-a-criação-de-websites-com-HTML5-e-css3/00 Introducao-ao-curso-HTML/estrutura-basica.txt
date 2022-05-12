@@ -1,0 +1,30 @@
+Objetivos
+
+1. História e estrutura básica
+2. semântica
+3. Principais elementos HTML
+
+
+Requisitos:
+. Editor Texto
+. Chrome Browser
+
+1. História e estrutura básica
+Última versão HTML 5 (2014)
+
+Estrutura básica:
+Exemplo:
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta>
+	<title></title>
+</head>
+
+<body> 
+</body>
+</html>
+
+
+

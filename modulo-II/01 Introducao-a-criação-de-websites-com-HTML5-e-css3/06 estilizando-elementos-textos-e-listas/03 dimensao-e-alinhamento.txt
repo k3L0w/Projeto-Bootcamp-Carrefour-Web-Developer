@@ -1,0 +1,18 @@
+dimensão e alinhamento
+Introdução ao CSS3
+
+Dimensão e alinhamento são muito importante em nossos layout.
+
+Propriedades
+
+Width //largura  
+Height //altura
+
+Max-width //largura máxima do elemento, se adequa
+Max-height //altura máxima do elemento, se adequa
+
+Margin //espaçamento entre elementos, valor 'auto' alinha um elemento automaticamente
+
+Text align //alinha texto (left, right, center or Justifie)
+
+

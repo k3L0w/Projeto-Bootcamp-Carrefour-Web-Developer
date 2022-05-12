@@ -1,0 +1,8 @@
+Textos e Links
+
+<a>Links</a>
+
+<a href="linkedin.com/in/vilaboim">Linkedin</a>
+<a href="mailto:lucas@vilaboim.com">E-mail</a>
+
+<a target="_blank">Link</a> //como será aberto.

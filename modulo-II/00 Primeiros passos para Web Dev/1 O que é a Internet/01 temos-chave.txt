@@ -1,0 +1,41 @@
+# Termos 
+
+down/upload //recebimento/envio de dados
+navegador/browser //software de acesso a paginas web
+banda larga //link de velocidade a internet.
+cache //armazenamento temporário
+crack //quebra de softwares
+email //envio e recebimento de mensagens
+emoticons/emoji //caracteres do teclado / figuras
+gif/jpg/png //extensão de arquivos do tipo imagem
+host //servidor
+HTML //linguagem de marcação
+HTTP //protocolo 
+icone //figura 
+link //ligação
+login/logon //acesso
+logout/logoff //desconexão
+mp3 //formato de audio
+multimídia //reprodução de texto,video,animação simutaneo.
+nick //apelido
+online/offline //conectado / desconecdtado
+pixel //resolução de uma imagem
+spam //"lixo" eletrônico
+URL //endereço de um site
+virus //software malicioso
+backup //guarda dados
+blog //diário na internet
+cyber)bullying //ameaças, afrontas, exposições, difamação
+3G/4G/5G //tecnologias de internet movel
+cokies //arquivo de texto, usado para identficar o computador
+firewall //barreira eletrônica
+hacker //encontra falhas/vulnerabilidades
+IP //endereçamento
+keylogger //software malicioso, capta dados em segundo plano.
+phishing //rouba dados por meio de enganação
+click bait //gerador de tráfego por meio de conteudos enganosos
+fake news //boatos 
+podcast //programa de rádio na internet
+vlog //diario em video
+pop-up //mensagens na tela
+youtuber //profissão do momento

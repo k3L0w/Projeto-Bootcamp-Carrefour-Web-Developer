@@ -1,0 +1,15 @@
+Stacks
+
+. Pilhas tecnológicas
+. conjunto de softwares para executar um app
+. LPs
+. Capacidade e limitação de performance
+. Ambientes: produção, testes, infra
+. Pontos fortes e fracos do App/Sw.
+
+Importância
+. Líderes precisam das informações dos Devs.
+. Devs precisam saber dos Stacks disponíveis
+. Sistemas, BDs, Lps e Protocolos
+. Estratégias de negócios
+. Contratações adequadas de acordo com as Stacks.

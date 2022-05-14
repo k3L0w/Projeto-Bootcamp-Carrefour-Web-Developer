@@ -1,0 +1,21 @@
+Objetivos
+1. HTML5
+2. Utlização do framework Bootstrap
+3. Construindo um site com HTML5, CSS3 e Bootstrap
+
+Requisitos
+. Windows, Linux or OSx
+. Editor textual
+. Github
+. HTML5 e CCS3
+. Muita vontade aprender.
+
+
+Bootstrap
+. Framework para desenvolvimento de sites responsivos (compatível com vários dispositovos: notebook, ipad, smartphones...)
+. vasta biblioteca de componentes, facilitando e agilizando o desenvolvimento web.
+. famoso framework para o frontend. 
+
+Down
+https://getbootstrap.com/docs/5.1/getting-started/download/
+

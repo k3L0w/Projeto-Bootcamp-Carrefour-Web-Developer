@@ -1,7 +1,0 @@
-# como funciona a internet
-
-1. redes
-2. backbone
-3. provedor acesso
-4. provedor serviço
-5. usuário final

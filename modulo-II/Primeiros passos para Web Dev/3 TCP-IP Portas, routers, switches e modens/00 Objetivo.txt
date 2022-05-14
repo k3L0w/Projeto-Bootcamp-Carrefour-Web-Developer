@@ -1,2 +1,0 @@
-Objetivo: 
-Obter conhecimentos em TCP-IP,, ports, routers, switches and modems

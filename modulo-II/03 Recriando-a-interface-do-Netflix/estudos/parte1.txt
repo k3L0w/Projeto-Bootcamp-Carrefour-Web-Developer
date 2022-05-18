@@ -1,0 +1,7 @@
+Objetivo: recriar a interface gráfica do Netflix.
+
+Requisitos: 
+IDE: vs-code
+Browser: google chrome
+
+E 'codar', 'codar', 'codar'...

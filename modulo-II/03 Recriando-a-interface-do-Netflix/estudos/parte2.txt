@@ -1,0 +1,17 @@
+00-Download VS-Code
+https://code.visualstudio.com/
+
+01-Criar estutura de pastas
+> js
+> style
+> img
+index.html
+
+02:Instalar e ativar 'Live Server' no VS-Code.
+03:Instalar e ativar 'Auto Rename Tag'
+04:Instalar e ativar 'Dracula Official'
+
+DIVs (conceito semântico) representam caixas.
+
+HTML responsável pela a estrutura do site.
+CSS cuida de toda a formação do site.

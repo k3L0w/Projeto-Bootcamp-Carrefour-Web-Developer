@@ -1,0 +1,5 @@
+Como se trabalha com elementos em caixa e como se usa o flex-box ao nosso favor. 
+
+Característica de um elemento pai.klkkkkkkkkkkkk
+
+Uma div sempre vem com o display padrao, o display block. 

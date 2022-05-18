@@ -1,0 +1,2 @@
+Responsividade = adaptação da tela ao devide/dispositivo.
+

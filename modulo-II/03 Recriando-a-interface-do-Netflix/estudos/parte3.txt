@@ -1,0 +1,11 @@
+mockup site
+
+Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web, com ferramentas offline adicionais para aplicações desktop para GNU/Linux, macOS e Windows. 
+
+https://pt.wikipedia.org/wiki/Figma
+
+
+
+Adobe XD é uma ferramenta de design de experiência do usuário baseada em vetores para aplicativos da web e aplicativos móveis, desenvolvida e publicada pela Adobe Inc. Wikipédia
+
+https://pt.wikipedia.org/wiki/Adobe_XD

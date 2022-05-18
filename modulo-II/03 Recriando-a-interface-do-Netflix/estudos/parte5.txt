@@ -1,0 +1,8 @@
+Font Awesome é um conjunto de ferramentas de fontes e ícones com base em CSS e LESS. Foi feito por Dave Gandy para uso com o Twitter Bootstrap e mais tarde foi incorporado no BootstrapCDN. Wikipédia
+https://pt.wikipedia.org/wiki/Font_Awesome
+
+
+Link do arquivo do ícone: 
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js")>
+
+

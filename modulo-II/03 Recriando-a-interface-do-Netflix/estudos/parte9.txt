@@ -1,0 +1,13 @@
+. HTML Semântico
+. Containers
+. Plugin JQuery
+. Responsividade
+
+
+Desafios extras
+. Dar vida aos botões em tela
+. Fazer uma nova roupagem (Nintendo Flix...)
+. Criar uma página que marque os filmes que já foram assistidos (outros desafios)
+
+
+HTML CSS JavaScript

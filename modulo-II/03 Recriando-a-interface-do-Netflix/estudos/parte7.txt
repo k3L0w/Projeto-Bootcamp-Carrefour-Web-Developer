@@ -1,0 +1,38 @@
+Plugin JQuery 'Owl Carousel 2'
+https://owlcarousel2.github.io/OwlCarousel2/
+
+Aprender JQuery ainda é utilizado em projetos legados. Importante aprender para saber lidar com isso!
+
+Desenvolver é resolver problemas.
+
+JQuery não é recomendado em projetos novos.
+
+
+Utilizado JQuery
+00 Acessar: https://owlcarousel2.github.io/OwlCarousel2/
+
+01 Clicar 'Download'
+
+02 criar uma pasta owl nas pasta 'style' e 'js'.
+
+03 mover o arquivo 'jquery.min' (OwlCarousel2../docs/assets/vendors para a pasta 'js' criada no início do projeto.
+
+04 mover o arquivo 'owl.carousel.min' (owlcarousel2../docs/assets/owlcarousel/ para a pasta 'js' criada no início do projeto.
+
+05 copiar os arquivos 'owl.carousel.min' e 'owl.theme.default.min' para a pasta style/owl criadas no início do projeto.
+
+06 excluir a pasta owlCarousel2-2.3.4.. e a zipada.
+
+07 linkar os arquivos css
+ <!--Owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+08 linkar os arquivos js (sempre linkar os arquivos js no fim do arquivo HTML.
+<!--Owl js-->
+    <script src="https://kit.fontawesome.com/3914cc6b7c.js" crossorigin="anonymous"></script> <!--utilização de ícones-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+
+
+Tecnologias antigas ainda tem utilidades.

@@ -1,0 +1,135 @@
+Tratamento de erros
+1. mostrar com lidar com erros e exceções
+2 . ensinar como criar seu próprio erro personalizado.
+
+Percurso
+Aula1 - tipos de erros
+1. Apresentar o objeto Error do ECMAScripts
+Erros que ocorrem em tempo de execução
+Composto por:
+. mensagem
+. nome
+. linha
+. call stack 
+
+2. Apresentar a DOMException
+Erros relacionados ao Document Object Model (DOM).
+  
+Aula2 - Tratametno de erros
+Objetivos da aula
+1. explicar a diferença entre 'trhow' e 'return'
+return (retorna uma string qualquer...)
+throw (retorna um erro)
+
+
+2. apresentar a implementação da declaração try/cath (principal saída para tratamento de erro)
+
+...
+TryCatch 
+Exemplo:
+function tryCathExemplo(string) {
+try {
+verificaPalindromo(string)
+}
+catch(e) { //permite manipular o erro e todas as propriedades de um erro de uma maneira personalizada.
+  console.log(e)
+}
+}
+...
+
+Obs.: o Try... Catch trata (verifica) um pedaço de código e captura para função Catch, dentro do Catch é feito a manipulação do erro.
+
+Finaly //instrução a ser chamada, independentemente se houver erro ou não.
+O 'finaly' é executado mesmo após as verificações do throw, ou do tryCatch.
+
+Exemplo de código: 
+-------------------------------------------------------
+function verificaPalindromo(string) {
+	if (!string) throw "String invalida");
+	
+	return string === string.split('').reserve().join('');
+}
+
+function tryCathExemplo(string) {
+  try {
+    return verficaPalindromo(string)
+}
+catch(e) {
+    throw e;
+}
+finaly {
+    console.lgo(1'A string enviado foi: ' + string);
+}
+}
+
+
+Aula3 - Criando erros
+1. explicar como manipular o objeto Error
+ 
+parametros: 
+(message, fileName, lineNumber) //parâmetros opcionais.
+Em vias de regra, os devs. constumam utlizar sempre o parâmetro 'message'.
+
+Exemplo de código:
+-------------------------------------------------------
+new Error(messagem, fileName, lineNumber)
+//todos os parametros são opcionais
+
+const meuErro = new Error('Mensagem inválida');
+
+throw MeuErro; //lanço o erro.
+-------------------------------------------------------
+
+Um erro pode ter um nome.
+
+
+O objeto do Error
+> MeuErro.name
+< "InvalidMessage"
+> MeuErro.stack //stack significa 'pilha'.
+< "InvalidMessage: Mensagem Inválida\n   at <anonymous>:3:17"
+> MeuErro
+< InvalidMessage: Mensagem Inválida 
+at <anonymous>:3:17>
+
+Atividade prática:
+
+Tratamento de Erros
+Projeto referente ao curso "Tratamento de Erros" que ministrei pela Digital Innovation One.
+
+Atividade: validação de erros por tipo
+O objetivo é que a função receba um array e retorne ele caso o seu tamanho corresponda ao número enviado como parâmetro na função. Caso contrário, um erro será lançado.
+
+Crie uma função que recebe um array e um número
+//function validaArray(arr, num){
+
+}
+
+Realize as seguintes validações:
+Se os parâmetros não forem enviados, lance um erro do tipo ReferenceError
+if (!arr && !num) throw new ReferenceError("Envie os parâmetros");
+
+Se o array não for do tipo 'object', lance um erro do tipo TypeError
+if(typeof arr !== 'object') throw new TypeError("Array precisa ser do tipo object!");
+
+Se o número não for do tipo 'number', lance um erro do tipo TypeError
+if(typeoff arr !== 'number') throw new TypeError("num precisa ser do tipo number");
+
+Se o tamanho do array for diferente do número enviado como parâmetro, lance um erro do tipo RangeError
+if(arr.length !== num) throw now RangeError("Tamanho inválido");
+
+Utilize a declaração try...catch
+Filtre as chamadas de catch por cada tipo de erro utilizando o operador instanceof
+
+Links Auxiliares
+Objeto Error 
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Error
+
+instanceof
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/instanceof
+
+typeof
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/typeof
+
+try...catch
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/try...catch

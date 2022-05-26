@@ -1,0 +1,65 @@
+Objetivos: 
+. Objetos Map e Set (coleções chaveadas)
+
+Aula1: Map
+Coleções chaveadas
+
+. Apresentar coleção Map
+. Explicar sua aplicação
+. diferença entre Map e Objeto
+
+Características:
+- coleção de arrays [chave, valor];
+- iterado por: loop, for... of
+
+
+Ex.:
+const myMap = new Map()
+
+métodos:
+
+cons myMap = new Map()
+myMap.set('apple', 'fluit');
+//Map(1) {"apple" => "fruit"}
+
+MyMap.get('apple');
+//"fruit"
+
+myMap.delete("apple")
+//true
+
+myMap.get("apple")
+//undefined
+
+
+Map(chaves de qualquer tipo) vs Objeto (strings)
+
+Aula2: Set
+Apresentar, explicar o Set.
+Difenrença entre Set e Array.
+
+
+Estrutura de um Set (estrutura que armazena apenas valores únicos)
+
+//exemplo
+const myArray = [1, 1, 2, 2, 3, 4, 5, 6, 7, 8, 2, 1];
+const mySet = new Set(myArray);
+
+
+const mySet = new Set();
+
+mySet.add(1);
+mySet.add(5);
+
+mySet.has(1);
+// true
+
+mySet.has(3);
+
+mySet.delete(5);
+
+
+Set (operações mais limitada)vs Array
+
+Github: stebsnusch
+

@@ -1,0 +1,144 @@
+Objetivo
+
+1. conceito de Object Orientation
+2. Pilares
+3. Javascript e paradigma O.O
+
+Percurso
+Aula1 - Intro
+Etapa 1: Paradigmas - Orientação a Objetos
+. Imperativo (Procedural / Object Oriented / Parallet Processing
+. Declarativo (Logic / Functional(dataflow) / Database)
+
+Paradigma: programas são 'objetos' que possuem propriedades.
+
+Pilares:
+- Herança
+- Polimorfismo
+- Encapsulamento
+- Abstração
+
+Etapa 2: Pilares
+- abstração -> 'abstrair' tornar um problema + simples. Simplificar cada vez mais.
+
+- Herança -> objeto filho herda propriedades e métodos do objeto pai.
+
+- Encapsulamento -> classes tem propriedades e métodos, independentes do restante do código.
+
+- Polimorfismo -> objetos herdam a mesma classe do pai, mas o comportamento é diferente.
+
+Aula2 - 00JS -> JavaScxrip - Orientado a objetos.
+Objetivos da aula2:
+. conceito de protótipos e cadeia de protótipos.
+TODOS os objetos JavaScript herdam propriedades e métodos de um prototype.
+Object.prototype está no topo desta cadeia.
+
+
+Estrutura de classes em JS.
+
+Classes
+Syntatic sugar => sintaxe que facilita a escrita.
+
+
+Ex.: 'old'
+-------------------------------------
+var Meal = function(food) {
+	this.food = food
+}
+
+Meal.prototype.eat = function() {
+	return
+}
+-------------------------------------
+
+
+Ex.: 'new'
+-------------------------------------
+class Meal {
+	constructor (food) {
+		this.food = food
+	}
+
+	eat() {
+		return
+	}
+}
+-------------------------------------
+
+Classes
+Javascript nao possui classes nativas.
+Todas as classes são objetos e a herança se dão por protótipos.
+
+Ex.:
+//construtor
+class Animal {
+	construtor(type = 'animal') {
+		this.type = type
+}
+
+getter e setter
+get type() {
+	return this._type
+}
+
+set type(val) {
+	this._type = val.toUpperCase()
+}
+
+makeSound() {
+	console.log('Making animal sound')
+	}
+}
+
+let a = new Animal ()
+console.log(a.type) //ANIMAL
+
+---------------------------------
+
+class Cat extends Animal {
+	construtor(){
+		super('cat') //MÉTODO super()
+}
+
+//método
+makeSound() {
+	super.makeSound()
+	console.log('Meow')
+	}
+}
+
+let b = new Cat()
+console.log(b.type) //CAT
+
+----------------------------------
+
+
+Aula3 - Prática
+
+Atividade: Conta Bancária
+
+Nesta atividade, vamos testar os conceitos de Orientação a Objetos simulando a criação de diversos tipos de contas bancárias e operações disponíveis em cada uma.
+
+1. Crie a classe ContaBancaria, que possui os parâmetros agencia, numero, tipo, saldo;
+
+2. Dentro de ContaBancaria, construa o getter e o setter de saldo;
+
+3. Dentro de ContaBancaria, crie os métodos sacar e depositar;
+
+4. Crie uma classe-filha chamada ContaCorrente que herda todos esses parâmetros e ainda possua o parâmetro cartaoCredito;
+
+5. Ainda em ContaCorrente, construa o getter e o setter de cartaoCredito;
+
+6. Ainda em ContaCorrente, faça com que o tipo seja 'conta corrente' por padrão;
+
+7. Crie uma classe-filha chamada ContaPoupanca que herda todos os parâmetros de ContaBancaria;
+
+8. Crie uma classe-filha chamada ContaUniversitaria que herda todos os parâmetros de ContaBancaria;
+
+9. Faça com que o método saque de ContaUniversitaria apenas seja capaz de sacar valores menores que 500 reais.
+
+
+
+
+
+

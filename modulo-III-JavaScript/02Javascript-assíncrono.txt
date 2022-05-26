@@ -1,0 +1,105 @@
+JavaScript Assíncrono
+
+
+Aula1. conceito de assincronicidade
+Assíncrono // 'Que não ocorre ao mesmo tempo'.
+JS roda de forma síncrona.
+
+Definições:
+- Promises //Objeto de processamento assíncrono.
+Inicialmente, seu valor é desconhecido. Pode ou não ser rejeitada.
+Promises pode ter 3 estados:
+1) Pending (pendente) 2) Fulfilled (completado) 3) Rejected (rejeitado)
+
+
+//estrutura
+Exemplo de código:
+----------------------
+const myPromise = new Promise((resolve, reject) //parametros (resolve, reject)=> {
+	window.setTimeout(() => {
+		resolve(console.log('Resolvida!'));
+}, 2000);
+});
+
+//manipulação
+Exemplo de código:
+const myPromise = new Promise((resolve, reject) => {
+	window.setTimeout(() => {
+		resolve('Resolvida');
+	}, 2000);;
+});
+
+//caso seja bem sucedida a Promise, executar: 'await myPromise'.
+await myPromise 
+	.then((result) => result + ' passando pelo then')
+	.then((result) => result + ' e agora acabou!')
+	.catch((erro) => console.log(erro.message));
+
+//após 2 segundos, retornará o valor.
+//*resolvida passando pelo then e agora finaliza. 
+
+
+- Apresentação de palavras-chave: 'Async' e 'Await'
+'Async' define funções assíncronas.
+
+'Await' para o código e espera a promise resolver.
+
+
+Aula2. Consumindo APIs
+
+API -> Application Programming Interface
+Uma forma de 'intermediar' os resultados do back-end com o front-end.
+É acessada por meio de URL.
+
+Ex.: 
+
+backend => API => Web App / Mobile App / Others APIs
+
+Dados são retornados no formato *.json (JavaScript Object Notation), (necessário o tratamento desses dados).
+
+
+Método fetch (consumo de APIs)
+
+Ex.:
+-----------------------------------------
+fetch(url, options)
+. then(response => response.json())
+. then(json => console.log(json))
+//retorna uma Promise
+-----------------------------------------
+
+
+Operações no banco (POST, GET, PUT, DELETE, etc)
+
+//método GET (download de dados do Database)
+fetch('https://endereco-api.com/', {
+	method: 'GET',
+	cache: 'no-cache',
+})
+	.then(response => response.json())
+	.then(json => console.log(json))
+//retorna uma Promise 
+
+
+//método POST (envio de dados a serem gravados no db)
+fetch('https://endereco-api.com/', {
+	method: 'POST',
+	cache: 'no-cache',
+	body: JSON.stringify(data)
+})
+	.then(response => response.json())
+	.then(json => console.log(json))
+//retorna uma Promise
+
+
+Aula3. Atividade Prática
+https://github.com/stebsnusch/basecamp-javascript
+
+Javascript Assíncrono
+Este repositório contém a atividade prática do Curso "Javascript Assíncrono", que faz parte do Basecamp de Javascript que minstrei pela Digital Innovation One.
+
+Atividade: API "catAPI"
+Nesta atividade, vamos criar uma página que carrega fotos aleatórias de gatinhos sempre que clicamos em um botão.
+
+Utilize a API https://thatcopy.pw/catapi/rest para fazer as chamadas com o método fetch();
+Utilize seus conhecimentos na manipulação do DOM para criar a imagem e ativar o evento de clique do botão!

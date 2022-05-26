@@ -1,0 +1,43 @@
+//1Map
+Apresentação (Map, Filter, Reduce)
+
+Objetivo: demonstração da utlização de três métodos importantes para Arrays.
+
+Percurso:
+Aula1-Map
+Aula2-Filter
+Aula3-Reduce
+Aula4-Atividade prática
+
+O que é, 
+
+Siintaxe
+
+Map vs foEach
+
+Slide de Apresentação
+
+Slide da aula
+
+//2Filter
+Filter
+
+Sintaxe
+
+Slide da aula
+
+
+//3Reduce
+Reduce e Sintaxe
+
+Slide da aula
+
+
+//4Colocando em prática
+Na prática - parte1
+Na prática - parte2
+Na prática - parte3
+Na prática - parte41
+
+/Certifique-se
+

@@ -1,0 +1,219 @@
+1.entendendo o D.O.M
+
+Apresentação do curso
+
+Objetivos:
+
+Aula1 - O que é o DOM
+1. Explicar o que o DOM (Document Object Model)
+O DOM HTML é um padrão de como acessar e modificar os elementos HTML de uma página.
+
+O que é D.O.M e D.OM vs B.O.M
+2. Esclarecer as diferenças entre o DOM e o BOM
+BOM (Browser Object Model)
+O BOM é a árvore de dependência que existe dentro de uma janela, e dentro dela está o DOM (document)
+
+3. Principais métodos para manipular páginas da web
+
+Aula2 - Selecionando elementos
+
+Objetivos
+1. Apresentar a estrutura HTML
+
+Ex.:
+<html>
+	<head>
+		<title>Minha página</title>
+	</head>
+	
+	<body>
+		<h1 id='titulo'>Minha página</h1>
+
+	<section class='textos'>
+		<h2>Sobre mim</h2>
+		<p>Texto sobre</p>
+	</section>
+
+	<section class='textos'>
+		<h2>Meus projetos</h2>
+		<ul>
+			<li>Projeto1</li>
+			<li>Projeto2</li>
+			<li>Projeto3</li>
+		</ul>
+	</section>
+
+	</body>
+</html>
+
+Selecionando os elementos de uma página
+//busca de um objeto pelo id
+document.getElementById('titulo');
+// <h1 id="titulo">Minha página</h1>
+
+
+//busca de um elemento pela tag
+document.getElementsByTagName('li');
+//será retornado um array, esse método é feito para retornar um array.
+/*
+[
+	<li>Projeto 1</li>
+	<li>Projeto 2</li>
+	<li>Projeto 3</li>
+]
+*/
+
+
+//busca pelo nome de uma classe
+document.getElementsBuClassName('textos');
+
+/*
+[
+	<section class='textos'>
+		<h2>Sobre mim</h2>
+		<p>Texto sobre a pessoa aqui.</p>
+	</section>
+
+	<section class='textos'>
+		<h2>Meus projetos</h2>
+		<ul>
+			<li>Projeto 1</li>
+			<li>Projeto 2</li>
+			<li>Projeto 3</li>
+		</ul>
+	</section>
+]
+*/
+
+Obs.: pra conseguir manipular é necessário acessar o índice do array.
+
+Outros seletores:
+
+//esse seletor retorna um Array também...
+document.querySelectorAll('.primeira-classe .segunda-classe);
+
+/*[
+	<div class='primeira-classe segunda-classe'>
+		<ul>
+			<li class='opcao'>opcao 1</li>
+			<li class='opcao'>opcao 2</li>
+			<li class='opcao'>opcao 3</li>
+	</div>
+]
+*/
+
+
+Outro uso do seletor, combinando tag e uma classe:
+//também retornará um Array...
+document.querySelectorAll('li .opcao');
+
+/*
+[
+	<li class='opcao'>opcao 1</li>
+	<li class='opcao'>opcao 2</li>
+	<li class='opcao'>opcao 3</li>
+]
+
+
+2. Apresentar métodos para interagir com os elemetos de uma página.
+
+Adicionar e deletar elementos (métodos e descrição)
+
+document.createElement(element) -> Cria um novo elemento HTML
+document.removeChild(element) -> Remove um elemento
+documento.appendChild(element) -> Adiciona um elemento
+document.replaceChild(new, old> -> Substitui um elemento
+
+
+Aula3 - Trabalhando com estilos
+
+Classes CSS
+Element.classList 
+//classList é uma propriedade do elemento.
+
+Ex.:
+<div id='meu-elemento' class='classe'>
+	<!-- resto do código aqui -->
+</div>
+
+Ex.: 
+const meuElemento = document.getElementByld('meu-elemento')
+
+meuElemento.classList.add('novo-estilo');
+// Adiciona a classe 'meu estilo'
+
+meuElemento.classList.remove('classe')
+// remove a classe 'classe'
+
+meuElemento.classList.toggle('dark-mode')
+// adiciona a classe 'dark-mode' caso ela não faça parta da da lista e remove caso faça parte.
+
+Ex.:
+<div id='meu-elemento' class='novo-estilo dark-mode'>
+	<!-- resto do código aqui -->
+</div>
+
+Acessando diretamento o CSS de um elemento
+
+ex.:
+document.getElementsByTagName('p').style.color = 'blue';
+Obs.: as classe já estavam prontas no CSS e apenas é feito a manipulação. Mas se for preciso é possível adicionar estilos diretamente no CSS.
+
+
+Aula4 - Eventos (qualquer tipo de ação que um usuário faz em uma página da Web)
+
+Manipulando o DOM
+
+Objetivo
+1. Explicação do que são eventos
+
+
+
+2. Apresentação dos eventos mais comuns utilizados
+Tipos:
+Eventos do mouse (mouseover, mouseout)
+Eventos de clique (click, dbclick) 
+Eventos de atualização (change, load)
+
+3. Como acionar eventos
+Event listener
+Diretamente no Javascript, cria um evento que vai ser acionado no momento em que o usuário realiza determinada ação.
+
+ex.:
+const botao = documento.getElementById("meuBotao");
+
+botao.addEventListener("click", outraFuncao); //escutador de eventos.
+
+Uma outra forma é no HTML
+
+Atributo HTML
+Especifica a função a ser chamada diretamente no elemento HTML.
+
+<html>
+<body>
+
+<h1 onclick="mudaTexto(this)>"Clique aqui!</h1>
+
+<script>
+	function mudaTexto(id) {
+		id.innerHTML = "Mudei!";
+	}
+</script>
+
+</body>
+</html>
+
+Agora, atividade prática.
+
+
+
+
+
+
+3. Trabalhando com estilos
+trabalhando com estilos
+
+4. Eventos
+Tipos e Acionando eventos
+Atividade prática
+Certifique seu conhecimento

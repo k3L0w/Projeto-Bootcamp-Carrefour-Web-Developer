@@ -22,7 +22,7 @@ array.map(callback, thisArg)
 //thisArg é opcional dentro da função callback. 
 
 callback(item, index, array)
-
+ 
 
 Map vs foEach (3:31)
 . Valor de retorno

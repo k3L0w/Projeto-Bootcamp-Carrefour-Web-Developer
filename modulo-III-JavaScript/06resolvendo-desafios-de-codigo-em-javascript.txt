@@ -1,0 +1,29 @@
+Natália Fernandes - Learning Experience Designer
+
+Bem vindos a Introdução
+//desafio de código
+
+. pensamento computacional
+
+. entrada e saída esperado.
+
+. algoritmos e pensamento computacional
+
+. aprendizagem colaborativa (foruns)
+
+. entrega dos desafios.
+
+
+Adriana Silva - Education&Talent Sucess Analyst
+//Colocando a mão na massa
+
+. conhecendo o ambiente e resolvendo o desafio
+
+Entrada e Saída de um algoritmo
+etapas: entrada -> processamento -> saída
+
+. interação na plataforma
+. Lives de desafios de códigos
+
+
+
